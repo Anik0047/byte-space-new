@@ -1,8 +1,14 @@
 @import "tailwindcss";
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,300,400&display=swap');
 
 @theme {
-  --color-brand-blue: #1a42e6; /* main background blue */
-  --color-brand-green: #b9ff36; /* lime green */
+  /* main background blue */
+  --color-brand-blue: #1a42e6;
+  /* lime green */
+  --color-brand-green: #b9ff36;
+
+  /* Add this line: */
+  --font-satoshi: "Satoshi", sans-serif;
 }
 
 body {
@@ -16,8 +22,8 @@ body {
 
 /* We can add a custom grid background class */
 .bg-grid-pattern {
-  background-image: 
-    linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 2px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 2px);
   background-size: 100px 100px;
 }
