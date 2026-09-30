@@ -4,6 +4,7 @@ import Hero from './components/Hero/hero';
 import Logoipsum from './components/Logoipsum/logoipsum';
 import Skills from './components/Skills/skills';
 import Explore from './components/Explore/explore';
+import Professional from './components/Professional/professional';
 
 function App() {
   return (
@@ -29,6 +30,11 @@ function App() {
           <Skills />
           <Explore />
         </div>
+      </div>
+
+      {/* Professional */}
+      <div>
+        <Professional />
       </div>
     </>
   );
