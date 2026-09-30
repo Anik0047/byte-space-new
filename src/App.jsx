@@ -6,6 +6,7 @@ import Skills from './components/Skills/skills';
 import Explore from './components/Explore/explore';
 import Professional from './components/Professional/professional';
 import Potential from './components/Potential/potential';
+import Testimonial from './components/Testimonial/testimonial';
 
 function App() {
   return (
@@ -35,7 +36,12 @@ function App() {
 
       {/* Professional */}
       <Professional />
+
+      {/* Potential */}
       <Potential />
+
+      {/* Testimonial */}
+      <Testimonial />
 
     </>
   );
