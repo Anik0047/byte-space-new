@@ -5,6 +5,7 @@ import Logoipsum from './components/Logoipsum/logoipsum';
 import Skills from './components/Skills/skills';
 import Explore from './components/Explore/explore';
 import Professional from './components/Professional/professional';
+import Potential from './components/Potential/potential';
 
 function App() {
   return (
@@ -33,9 +34,9 @@ function App() {
       </div>
 
       {/* Professional */}
-      <div>
-        <Professional />
-      </div>
+      <Professional />
+      <Potential />
+
     </>
   );
 }
