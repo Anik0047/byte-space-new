@@ -5,7 +5,7 @@ const Hero = () => {
         <div>
             {/* Text Section */}
             <div className="w-[935px] mx-auto mb-[60px]">
-                <h1 className="mt-[49px] text-[72px] font-semibold  text-center font-poppins">Get Access to Hundreds Courses Available</h1>
+                <h1 className="mt-[49px] text-[72px] font-semibold text-white  text-center font-poppins">Get Access to Hundreds Courses Available</h1>
                 <p className="text-[#B0B0B0] text-lg font-satoshi text-center mt-[32px]">Unlock your creativity, gain valuable knowledge, and grow your business with our wide range of courses.</p>
 
                 <div className="flex justify-center gap-4 mt-[60px]">
