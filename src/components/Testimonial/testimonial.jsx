@@ -35,45 +35,52 @@ const Testimonial = () => {
                 BACKGROUND GLOWS
             ====================================================== */}
 
-            {/* Center Green Glow */}
-            <img
-                src="/Ellipse 12 (1).png"
-                alt=""
+
+
+            <div
                 className="
-                    absolute
+     absolute
                     left-1/2
-                    top-[-50px]
+                    top-[-250px]
                     -translate-x-1/2
-                    w-[950px]
-                    pointer-events-none
-                    select-none
-                "
+        w-[800px]
+        h-[800px]
+        rounded-full
+        bg-[radial-gradient(circle_at_center,#CBFC01_0%,rgba(203,252,1,0.23)_23%,rgba(203,252,1,0.06)_55%,transparent_75%)]
+        blur-[30px]
+        pointer-events-none
+    "
             />
 
-            {/* Right Green Glow */}
-            <img
-                src="/Ellipse 11 (1).png"
-                alt=""
-                className="
-                    absolute
-                    right-[0px]
-                    top-[40px]
-                    pointer-events-none
-                    select-none
-                "
-            />
 
-            {/* Bottom Left Blue Glow */}
-            <img
-                src="/Ellipse 8 (1).png"
-                alt=""
+
+            <div
                 className="
-                    absolute
-                    left-[0px]
-                    bottom-[0px]
-                    pointer-events-none
-                    select-none
-                "
+     absolute
+                   right-[-400px]
+                    top-[-100px]
+        w-[900px]
+        h-[900px]
+        rounded-full
+        bg-[radial-gradient(circle_at_center,#CBFC01_0%,rgba(203,252,1,0.23)_23%,rgba(203,252,1,0.06)_55%,transparent_75%)]
+        blur-[60px]
+        pointer-events-none
+    "/>
+
+
+
+            <div
+                className="
+        absolute
+           w-[520px]
+           h-[520px]
+        rounded-full
+       left-[-200px]
+                    bottom-[-150px]
+        bg-[radial-gradient(circle,#003BE2_0%,rgba(0,59,226,0.23)_23%,rgba(0,59,226,0.06)_55%,rgba(0,59,226,0)_75%)]
+        blur-[80px]
+        pointer-events-none
+    "
             />
 
             {/* =====================================================
