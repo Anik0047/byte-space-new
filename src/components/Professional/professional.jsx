@@ -41,8 +41,8 @@ const Professional = () => {
                 alt=""
                 className="
                     absolute
-                    right-[-180px]
-                    top-[-100px]
+                    right-[0px]
+                    top-[0px]
                     w-[520px]
                     pointer-events-none
                     select-none
@@ -68,13 +68,15 @@ const Professional = () => {
                 alt=""
                 className="
                     absolute
-                    right-[-180px]
-                    bottom-[-100px]
+                    right-[0px]
+                    bottom-[0px]
                     w-[520px]
                     pointer-events-none
                     select-none
                 "
             />
+
+
 
             <div className="relative z-10  w-[1440px] mx-auto px-[120px]">
 

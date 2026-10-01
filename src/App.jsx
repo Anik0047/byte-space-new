@@ -1,53 +1,15 @@
-
-import Navbar from './components/Navbar/navbar';
-import Hero from './components/Hero/hero';
-import Logoipsum from './components/Logoipsum/logoipsum';
-import Skills from './components/Skills/skills';
-import Explore from './components/Explore/explore';
-import Professional from './components/Professional/professional';
-import Potential from './components/Potential/potential';
-import Testimonial from './components/Testimonial/testimonial';
-import Footer from './components/Footer/footer';
+import { Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Login from './pages/Login';
+import Register from './pages/Register';
 
 function App() {
   return (
-    <>
-      {/* Navbar + Hero */}
-      <div className="min-h-screen bg-brand-blue bg-grid-pattern overflow-hidden relative">
-        <div className='w-[1440px] mx-auto px-[120px]'>
-          <Navbar />
-          <Hero />
-        </div>
-      </div>
-
-      {/* Logoipsum */}
-      <div className='bg-[#F5F5F6]'>
-        <div className='w-[1440px] mx-auto px-[120px]'>
-          <Logoipsum />
-        </div>
-      </div>
-
-      {/* Skills */}
-      <div className='bg-white mt-[72px]'>
-        <div className='w-[1440px] mx-auto px-[120px]'>
-          <Skills />
-          <Explore />
-        </div>
-      </div>
-
-      {/* Professional */}
-      <Professional />
-
-      {/* Potential */}
-      <Potential />
-
-      {/* Testimonial */}
-      <Testimonial />
-
-      {/* Footer */}
-      <Footer />
-
-    </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/register" element={<Register />} />
+    </Routes>
   );
 }
 
