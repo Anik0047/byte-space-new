@@ -1,5 +1,6 @@
 import { Star } from "lucide-react";
 import React from "react";
+import Button from "../common/Button";
 const Hero = () => {
     return (
         <div>
@@ -13,9 +14,9 @@ const Hero = () => {
                         <img src="/megnify.png" alt="" className="w-[24px] h-[24px]" />
                         <input type="text" placeholder="Course, topic, creator" className="placeholder:text-gray-300 placeholder:text-[18px] placeholder:font-satoshi" />
                     </div>
-                    <div className="bg-accent-lime-300 py-3 px-6 rounded-3xl mb-[60px]">
-                        <button className="text-dark-700 text-lg font-medium font-satoshi">Search</button>
-                    </div>
+                    <Button className="mb-[60px]">
+                        Search
+                    </Button>
                 </div>
             </div>
             {/* Image Section */}
