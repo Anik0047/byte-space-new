@@ -39,14 +39,14 @@ const Explore = () => {
             {/* =========================
                 Heading
             ========================== */}
-            <h1 className="text-[36px] leading-[1.2] text-[#040819] font-semibold font-poppins text-center mb-4">
+            <h1 className="text-[36px] leading-[1.2] text-dark-900 font-semibold font-poppins text-center mb-4">
                 Explore Diverse Learning Paths at Bytespace
             </h1>
 
             {/* =========================
                 Description
             ========================== */}
-            <p className="text-[17px] leading-[1.5] text-[#82868E] text-center max-w-[917px] mx-auto mb-[68px] font-satoshi">
+            <p className="text-[17px] leading-[1.5] text-gray-300 text-center max-w-[917px] mx-auto mb-[68px] font-satoshi">
                 At Bytespace, we believe in empowering individuals through
                 knowledge. Our diverse range of courses spans various fields,
                 ensuring there's something for everyone. Unleash your potential
@@ -66,7 +66,7 @@ const Explore = () => {
                             w-full
                             rounded-[20px]
                             border
-                            border-[#D9D9D9]
+                            border-border-base
                             bg-white
                             flex
                             flex-col
@@ -84,7 +84,7 @@ const Explore = () => {
                             className="
                                p-3
                                 rounded-full
-                                bg-[#D4FB20]
+                                bg-accent-lime-300
                                 flex
                                 items-center
                                 justify-center
@@ -102,7 +102,7 @@ const Explore = () => {
                         </div>
 
                         {/* Title */}
-                        <h3 className="text-[17px] leading-[1.2] text-[#242528] font-satoshi font-medium text-center">
+                        <h3 className="text-[17px] leading-[1.2] text-dark-700 font-satoshi font-medium text-center">
                             {category.title}
                         </h3>
                     </div>

@@ -8,9 +8,41 @@
   /* lime green */
   --color-brand-green: #b9ff36;
 
-  /* Add this line: */
+  /* Typography */
   --font-satoshi: "Satoshi", sans-serif;
   --font-poppins: "Poppins", sans-serif;
+
+  /* Color Palette */
+  --color-dark-900: #040819;
+  --color-dark-800: #080A13;
+  --color-dark-700: #242528;
+
+  --color-gray-900: #444750;
+  --color-gray-800: #4B4C53;
+  --color-gray-700: #4F4F4F;
+  --color-gray-600: #666A72;
+  --color-gray-500: #777B83;
+  --color-gray-400: #777777; /* using full hex instead of #777 */
+  --color-gray-300: #82868E;
+  --color-gray-200: #B0B0B0;
+  --color-gray-100: #C9CDD2;
+
+  --color-light-100: #F5F5F6;
+  --color-light-200: #F1F1F1;
+  --color-light-300: #F0F0F0;
+  --color-light-400: #EAEAEA;
+  --color-light-500: #F7F7F7;
+
+  --color-border-base: #D9D9D9;
+  --color-border-light: #E5E6E8;
+
+  --color-accent-blue: #1648FF;
+  --color-accent-blue-dark: #003BE2;
+
+  --color-accent-lime-100: #C8FF00;
+  --color-accent-lime-200: #C6FF00;
+  --color-accent-lime-300: #D4FB20;
+  --color-accent-lime-400: #c4eb16;
 }
 
 body {

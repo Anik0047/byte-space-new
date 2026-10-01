@@ -141,7 +141,7 @@ const Skills = () => {
             {/* =========================
                 Heading
             ========================== */}
-            <h1 className="text-[#040819] text-[44px] leading-[1.2] font-semibold text-center font-poppins mb-4">
+            <h1 className="text-dark-900 text-[44px] leading-[1.2] font-semibold text-center font-poppins mb-4">
                 Discover Your Passion,
                 <br />
                 Build Your Skills
@@ -150,7 +150,7 @@ const Skills = () => {
             {/* =========================
                 Description
             ========================== */}
-            <p className="text-[#82868E] text-lg leading-[1.5] font-satoshi max-w-[917px] mx-auto text-center mb-[42px]">
+            <p className="text-gray-300 text-lg leading-[1.5] font-satoshi max-w-[917px] mx-auto text-center mb-[42px]">
                 At Bytespace Courses, we bring you closer to life-changing
                 knowledge. Explore a variety of courses across different
                 fields, from technology to the arts, and make a difference in
@@ -188,8 +188,8 @@ const Skills = () => {
                                         transition-all
                                         duration-200
                                         ${isActive
-                                            ? "bg-[#C6FF00] text-[#242528]"
-                                            : "bg-[#F5F5F6] text-[#444750] hover:bg-[#EAEAEA]"
+                                            ? "bg-accent-lime-200 text-dark-700"
+                                            : "bg-light-100 text-gray-900 hover:bg-light-400"
                                         }
                                     `}
                                 >
@@ -208,7 +208,7 @@ const Skills = () => {
                                     text-[13px]
                                     leading-[1.2]
                                     font-satoshi
-                                    text-[#1648FF]
+                                    text-accent-blue
                                     whitespace-nowrap
                                     hover:underline
                                 "
@@ -231,7 +231,7 @@ const Skills = () => {
                             w-full
                             rounded-[20px]
                             border
-                            border-[#D9D9D9]
+                            border-border-base
                             bg-white
                             p-3
                             overflow-hidden
@@ -264,15 +264,15 @@ const Skills = () => {
                                     gap-2
                                 "
                             >
-                                <span className="bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 text-[11px] text-[#444750] whitespace-nowrap">
+                                <span className="bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 text-[11px] text-gray-900 whitespace-nowrap">
                                     {course.lessons}
                                 </span>
 
-                                <span className="bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 text-[11px] text-[#444750] whitespace-nowrap">
+                                <span className="bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 text-[11px] text-gray-900 whitespace-nowrap">
                                     {course.duration}
                                 </span>
 
-                                <span className="bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 text-[11px] text-[#444750] whitespace-nowrap">
+                                <span className="bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 text-[11px] text-gray-900 whitespace-nowrap">
                                     {course.comments}
                                 </span>
                             </div>
@@ -289,7 +289,7 @@ const Skills = () => {
                                     text-[17px]
                                     leading-[1.2]
                                     font-semibold
-                                    text-[#080A13]
+                                    text-dark-800
                                     font-poppins
                                 "
                                 title={course.title}
@@ -298,11 +298,11 @@ const Skills = () => {
                             </h3>
 
                             <div className="flex items-center gap-1 shrink-0">
-                                <span className="text-[14px] text-[#666A72]">
+                                <span className="text-[14px] text-gray-600">
                                     {course.rating}
                                 </span>
 
-                                <span className="text-[#C9CDD2] text-[18px]">
+                                <span className="text-gray-100 text-[18px]">
                                     ★
                                 </span>
                             </div>
@@ -312,11 +312,11 @@ const Skills = () => {
                             Instructor
                         ========================== */}
                         <div className="flex items-center gap-1 mt-1">
-                            <span className="text-[11px] text-[#777B83]">
+                            <span className="text-[11px] text-gray-500">
                                 by
                             </span>
 
-                            <span className="text-[11px] text-[#1648FF]">
+                            <span className="text-[11px] text-accent-blue">
                                 {course.instructor}
                             </span>
                         </div>
@@ -331,17 +331,17 @@ const Skills = () => {
         flex
         items-center
         gap-2
-        bg-[#F5F5F6]
+        bg-light-100
         rounded-full
         px-3
         py-1.5
     "
                             >
-                                <span className="text-[#444750] rotate-270">
+                                <span className="text-gray-900 rotate-270">
                                     <ListSortAscending size={16} strokeWidth={2} />
                                 </span>
 
-                                <span className="text-[12px] font-medium text-[#4B4C53]">
+                                <span className="text-[12px] font-medium text-gray-800">
                                     {course.level}
                                 </span>
                             </div>
@@ -356,11 +356,11 @@ const Skills = () => {
                             Price
                         ========================== */}
                         <div className="flex items-end gap-1 mt-4">
-                            <span className="text-[20px] font-semibold text-[#1648FF]">
+                            <span className="text-[20px] font-semibold text-accent-blue">
                                 {course.price}
                             </span>
 
-                            <span className="text-[10px] text-[#4F4F4F] mb-[2px]">
+                            <span className="text-[10px] text-gray-700 mb-[2px]">
                                 /{course.priceType}
                             </span>
                         </div>
@@ -373,7 +373,7 @@ const Skills = () => {
             ========================== */}
             {filteredCourses.length === 0 && (
                 <div className="text-center py-10">
-                    <p className="text-[#82868E] font-satoshi">
+                    <p className="text-gray-300 font-satoshi">
                         No courses available for this category.
                     </p>
                 </div>

@@ -99,7 +99,7 @@ const Testimonial = () => {
                     <div>
                         <h2
                             className="
-                                text-[#040819]
+                                text-dark-900
                                 text-[44px]
                                 leading-[1.15]
                                 font-semibold
@@ -117,7 +117,7 @@ const Testimonial = () => {
                     <div>
                         <p
                             className="
-                                text-[#666A72]
+                                text-gray-600
                                 text-[18px]
                                 leading-[1.65]
                                 font-satoshi
@@ -187,7 +187,7 @@ const Testimonial = () => {
 
                             <h3
                                 className="
-                                    text-[#080A13]
+                                    text-dark-800
                                     text-[16px]
                                     font-semibold
                                     font-poppins
@@ -203,7 +203,7 @@ const Testimonial = () => {
 
                             <p
                                 className="
-                                    text-[#1648FF]
+                                    text-accent-blue
                                     text-[13px]
                                     font-satoshi
                                     mt-1
@@ -219,7 +219,7 @@ const Testimonial = () => {
 
                             <p
                                 className="
-                                    text-[#666A72]
+                                    text-gray-600
                                     text-[14px]
                                     leading-[1.7]
                                     font-satoshi

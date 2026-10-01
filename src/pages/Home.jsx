@@ -20,7 +20,7 @@ function Home() {
       </div>
 
       {/* Logoipsum */}
-      <div className='bg-[#F5F5F6]'>
+      <div className='bg-light-100'>
         <div className='w-[1440px] mx-auto px-[120px]'>
           <Logoipsum />
         </div>

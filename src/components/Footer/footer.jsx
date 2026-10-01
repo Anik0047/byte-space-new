@@ -32,7 +32,7 @@ const footerColumns = [
 
 const Footer = () => {
     return (
-        <footer className="w-full bg-white border-t border-[#D9D9D9]">
+        <footer className="w-full bg-white border-t border-border-base">
             <div className="w-full max-w-[1440px] mx-auto px-6 lg:px-[120px]">
 
                 {/* ==========================================
@@ -56,7 +56,7 @@ const Footer = () => {
                         </div>
 
                         {/* Description */}
-                        <p className="text-[#666A72] text-[14px] font-satoshi w-[528px] mb-7">
+                        <p className="text-gray-600 text-[14px] font-satoshi w-[528px] mb-7">
                             Stay Up to date with our latest features and releases by joining our newsletter.
                         </p>
 
@@ -75,13 +75,13 @@ const Footer = () => {
                                     px-6
                                     rounded-full
                                     border
-                                    border-[#D9D9D9]
+                                    border-border-base
                                     px-4
                                     text-[10px]
                                     font-satoshi
-                                    text-[#242528]
+                                    text-dark-700
                                     outline-none
-                                    focus:border-[#C6FF00]
+                                    focus:border-accent-lime-200
                                 "
                             />
 
@@ -92,14 +92,14 @@ const Footer = () => {
                                     py-3
                                     px-6
                                     rounded-full
-                                    bg-[#D4FB20]
-                                    text-[#242528]
+                                    bg-accent-lime-300
+                                    text-dark-700
                                     text-[10px]
                                     font-medium
                                     font-satoshi
                                     transition-all
                                     duration-200
-                                    hover:bg-[#c4eb16]
+                                    hover:bg-accent-lime-400
                                 "
                             >
                                 Search
@@ -107,7 +107,7 @@ const Footer = () => {
                         </form>
 
                         {/* Privacy Text */}
-                        <p className="text-[#666A72] text-[12px]  font-satoshi w-[504px] mt-4">
+                        <p className="text-gray-600 text-[12px]  font-satoshi w-[504px] mt-4">
                             By subscribing, you agree to our Privacy Policy and
                             consent to receive updates from our company.
                         </p>
@@ -126,12 +126,12 @@ const Footer = () => {
                                         <a
                                             href="#"
                                             className="
-                                                text-[#242528]
+                                                text-dark-700
                                                 text-[14px]
                                                 font-satoshi
                                                 transition-colors
                                                 duration-200
-                                                hover:text-[#1648FF]
+                                                hover:text-accent-blue
                                             "
                                         >
                                             {link}
@@ -148,7 +148,7 @@ const Footer = () => {
                     DIVIDER
                 =========================================== */}
 
-                <div className="border-t border-[#D9D9D9]" />
+                <div className="border-t border-border-base" />
 
 
                 {/* ==========================================
@@ -167,7 +167,7 @@ const Footer = () => {
                     "
                 >
                     {/* Copyright */}
-                    <p className="text-[#242528] text-[12px] font-satoshi">
+                    <p className="text-dark-700 text-[12px] font-satoshi">
                         © 2023 ByteSpace. All rights reserved.
                     </p>
 
@@ -176,21 +176,21 @@ const Footer = () => {
                     <div className="flex items-center gap-5">
                         <a
                             href="#"
-                            className="text-[#242528] text-[12px] font-satoshi hover:text-[#1648FF]"
+                            className="text-dark-700 text-[12px] font-satoshi hover:text-accent-blue"
                         >
                             Privacy Policy
                         </a>
 
                         <a
                             href="#"
-                            className="text-[#242528] text-[12px] font-satoshi hover:text-[#1648FF]"
+                            className="text-dark-700 text-[12px] font-satoshi hover:text-accent-blue"
                         >
                             Terms of Service
                         </a>
 
                         <a
                             href="#"
-                            className="text-[#242528] text-[12px] font-satoshi hover:text-[#1648FF]"
+                            className="text-dark-700 text-[12px] font-satoshi hover:text-accent-blue"
                         >
                             Cookies Settings
                         </a>

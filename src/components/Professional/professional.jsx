@@ -103,7 +103,7 @@ const Professional = () => {
                     <div className='pt-[194px]'>
                         <h2
                             className='
-                                text-[#242528]
+                                text-dark-700
                                 text-[44px]
                                 leading-[1.15]
                                 font-semibold
@@ -117,7 +117,7 @@ const Professional = () => {
 
                         <p
                             className='
-                                text-[#4F4F4F]
+                                text-gray-700
                                 text-[18px]
                                 leading-[1.65]
                                 font-satoshi
@@ -135,31 +135,31 @@ const Professional = () => {
                         {/* Stats */}
                         <div className='flex items-start gap-14'>
                             <div>
-                                <h3 className='text-[#1648FF] text-[36px] font-medium font-poppins'>
+                                <h3 className='text-accent-blue text-[36px] font-medium font-poppins'>
                                     12K
                                 </h3>
 
-                                <p className='text-[#4B4C53] text-[18px] font-satoshi'>
+                                <p className='text-gray-800 text-[18px] font-satoshi'>
                                     Students
                                 </p>
                             </div>
 
                             <div>
-                                <h3 className='text-[#1648FF] text-[36px] font-medium font-poppins'>
+                                <h3 className='text-accent-blue text-[36px] font-medium font-poppins'>
                                     70+
                                 </h3>
 
-                                <p className='text-[#4B4C53] text-[18px] font-satoshi'>
+                                <p className='text-gray-800 text-[18px] font-satoshi'>
                                     Courses
                                 </p>
                             </div>
 
                             <div>
-                                <h3 className='text-[#1648FF] text-[36px] font-medium font-poppins'>
+                                <h3 className='text-accent-blue text-[36px] font-medium font-poppins'>
                                     16
                                 </h3>
 
-                                <p className='text-[#4B4C53] text-[18px] font-satoshi'>
+                                <p className='text-gray-800 text-[18px] font-satoshi'>
                                     Creators
                                 </p>
                             </div>
@@ -179,7 +179,7 @@ const Professional = () => {
                                 left-[20px]
                                 rounded-[14px]
                                 border
-                                border-[#D9D9D9]
+                                border-border-base
                                 bg-white
                                 p-2
                                 shadow-[0_10px_30px_rgba(0,0,0,0.08)]
@@ -208,15 +208,15 @@ const Professional = () => {
                                     
                                 '
                                 >
-                                    <span className='bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 text-[11px] text-[#444750] whitespace-nowrap'>
+                                    <span className='bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 text-[11px] text-gray-900 whitespace-nowrap'>
                                         {course.lessons}
                                     </span>
 
-                                    <span className='bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 text-[11px] text-[#444750] whitespace-nowrap'>
+                                    <span className='bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 text-[11px] text-gray-900 whitespace-nowrap'>
                                         {course.duration}
                                     </span>
 
-                                    <span className='bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 text-[11px] text-[#444750] whitespace-nowrap'>
+                                    <span className='bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 text-[11px] text-gray-900 whitespace-nowrap'>
                                         {course.comments}
                                     </span>
                                 </div>
@@ -231,7 +231,7 @@ const Professional = () => {
                                     text-[17px]
                                     leading-[1.2]
                                     font-semibold
-                                    text-[#080A13]
+                                    text-dark-800
                                     font-poppins
                                 '
                                     title={course.title}
@@ -240,19 +240,19 @@ const Professional = () => {
                                 </h3>
 
                                 <div className='flex items-center gap-1 shrink-0'>
-                                    <span className='text-[14px] text-[#666A72]'>
+                                    <span className='text-[14px] text-gray-600'>
                                         {course.rating}
                                     </span>
 
-                                    <span className='text-[#C9CDD2] text-[18px]'>★</span>
+                                    <span className='text-gray-100 text-[18px]'>★</span>
                                 </div>
                             </div>
 
                             {/* Instructor */}
                             <div className='flex items-center gap-1 mt-1'>
-                                <span className='text-[11px] text-[#777B83]'>by</span>
+                                <span className='text-[11px] text-gray-500'>by</span>
 
-                                <span className='text-[11px] text-[#1648FF]'>
+                                <span className='text-[11px] text-accent-blue'>
                                     {course.instructor}
                                 </span>
                             </div>
@@ -265,17 +265,17 @@ const Professional = () => {
                                    flex
                                    items-center
                                    gap-2
-                                   bg-[#F5F5F6]
+                                   bg-light-100
                                    rounded-full
                                    px-3
                                    py-1.5
                                '
                                 >
-                                    <span className='text-[#444750] rotate-270'>
+                                    <span className='text-gray-900 rotate-270'>
                                         <ListSortAscending size={16} strokeWidth={2} />
                                     </span>
 
-                                    <span className='text-[12px] font-medium text-[#4B4C53]'>
+                                    <span className='text-[12px] font-medium text-gray-800'>
                                         {course.level}
                                     </span>
                                 </div>
@@ -288,11 +288,11 @@ const Professional = () => {
 
                             {/* Price */}
                             <div className='flex items-end gap-1 mt-4'>
-                                <span className='text-[20px] font-semibold text-[#1648FF]'>
+                                <span className='text-[20px] font-semibold text-accent-blue'>
                                     {course.price}
                                 </span>
 
-                                <span className='text-[10px] text-[#4F4F4F] mb-[2px]'>
+                                <span className='text-[10px] text-gray-700 mb-[2px]'>
                                     /{course.priceType}
                                 </span>
                             </div>
@@ -326,16 +326,16 @@ const Professional = () => {
                                 z-20
                             '
                         >
-                            <p className='text-[14px] text-[#4F4F4F] font-satoshi'>
+                            <p className='text-[14px] text-gray-700 font-satoshi'>
                                 Learning Progress
                             </p>
 
-                            <h3 className='text-[34px] leading-none text-[#040819] font-semibold font-poppins mt-1'>
+                            <h3 className='text-[34px] leading-none text-dark-900 font-semibold font-poppins mt-1'>
                                 55%
                             </h3>
 
-                            <div className='w-full h-[8px] bg-[#F0F0F0] rounded-full mt-3 overflow-hidden'>
-                                <div className='w-[55%] h-full bg-[#C6FF00] rounded-full' />
+                            <div className='w-full h-[8px] bg-light-300 rounded-full mt-3 overflow-hidden'>
+                                <div className='w-[55%] h-full bg-accent-lime-200 rounded-full' />
                             </div>
                         </div>
 
@@ -372,7 +372,7 @@ const Professional = () => {
                                 left-0
                                 top-[35px]
                                 w-[242px]
-                                bg-[#1648FF]
+                                bg-accent-blue
                                 rounded-[8px]
                                 px-3
                                 py-4
@@ -386,7 +386,7 @@ const Professional = () => {
                             <h4 className='text-[24px] font-semibold mt-1'>$120.29</h4>
 
                             <div className='w-full h-[4px] bg-white/30 rounded-full mt-2'>
-                                <div className='w-[65%] h-full bg-[#C6FF00] rounded-full' />
+                                <div className='w-[65%] h-full bg-accent-lime-200 rounded-full' />
                             </div>
                         </div>
 
@@ -397,7 +397,7 @@ const Professional = () => {
                                 left-0
                                 top-[170px]
                                 w-[134px]
-                                bg-[#1648FF]
+                                bg-accent-blue
                                 rounded-[8px]
                                 px-3
                                 py-2.5
@@ -411,7 +411,7 @@ const Professional = () => {
 
                             <h4 className='text-[24px] font-semibold mt-1'>$1,200.38</h4>
 
-                            <span className='inline-block bg-[#C6FF00] text-[#040819] text-[10px] rounded-full px-1.5 py-0.5 mt-1'>
+                            <span className='inline-block bg-accent-lime-200 text-dark-900 text-[10px] rounded-full px-1.5 py-0.5 mt-1'>
                                 +12%
                             </span>
                         </div>
@@ -460,14 +460,14 @@ const Professional = () => {
                                 z-30
                             '
                         >
-                            <p className='text-[16px] font-medium text-[#242528]'>
+                            <p className='text-[16px] font-medium text-dark-700'>
                                 Happy Students
                             </p>
 
                             <div className='flex items-center gap-1 mt-1'>
-                                <span className='text-[10px] text-[#777]'>4.5 (240)</span>
+                                <span className='text-[10px] text-gray-400'>4.5 (240)</span>
 
-                                <span className='text-[#C6FF00] text-[8px]'>★</span>
+                                <span className='text-accent-lime-200 text-[8px]'>★</span>
                             </div>
 
                             {/* Student Images */}
@@ -488,7 +488,7 @@ const Professional = () => {
                     <div className='order-1 lg:order-2'>
                         <h2
                             className='
-                                text-[#040819]
+                                text-dark-900
                                 text-[44px]
                                 leading-[1.15]
                                 font-semibold
@@ -503,7 +503,7 @@ const Professional = () => {
 
                         <p
                             className='
-                                text-[#82868E]
+                                text-gray-300
                                 text-[18px]
                                 leading-[1.6]
                                 font-satoshi
@@ -511,7 +511,7 @@ const Professional = () => {
                                 mb-7
                             '
                         >
-                            <span className='font-semibold text-[#242528]'>ByteSpace</span>{' '}
+                            <span className='font-semibold text-dark-700'>ByteSpace</span>{' '}
                             supports individuals or entities in the creation, publication, and
                             administration of educational courses.
                         </p>
@@ -523,14 +523,14 @@ const Professional = () => {
                                     size={14}
                                     strokeWidth={3}
                                     className='
-                                        bg-[#1648FF]
+                                        bg-accent-blue
                                         text-white
                                         rounded-full
                                         p-[2px]
                                     '
                                 />
 
-                                <span className='text-[18px] text-[#242528] font-satoshi'>
+                                <span className='text-[18px] text-dark-700 font-satoshi'>
                                     Share Your Expertise
                                 </span>
                             </div>
@@ -540,14 +540,14 @@ const Professional = () => {
                                     size={14}
                                     strokeWidth={3}
                                     className='
-                                        bg-[#1648FF]
+                                        bg-accent-blue
                                         text-white
                                         rounded-full
                                         p-[2px]
                                     '
                                 />
 
-                                <span className='text-[18px] text-[#242528] font-satoshi'>
+                                <span className='text-[18px] text-dark-700 font-satoshi'>
                                     Monetize Your Passion
                                 </span>
                             </div>
@@ -557,14 +557,14 @@ const Professional = () => {
                                     size={14}
                                     strokeWidth={3}
                                     className='
-                                        bg-[#1648FF]
+                                        bg-accent-blue
                                         text-white
                                         rounded-full
                                         p-[2px]
                                     '
                                 />
 
-                                <span className='text-[18px] text-[#242528] font-satoshi'>
+                                <span className='text-[18px] text-dark-700 font-satoshi'>
                                     Flexibility and Autonomy
                                 </span>
                             </div>
@@ -574,14 +574,14 @@ const Professional = () => {
                                     size={14}
                                     strokeWidth={3}
                                     className='
-                                        bg-[#1648FF]
+                                        bg-accent-blue
                                         text-white
                                         rounded-full
                                         p-[2px]
                                     '
                                 />
 
-                                <span className='text-[18px] text-[#242528] font-satoshi'>
+                                <span className='text-[18px] text-dark-700 font-satoshi'>
                                     Build a Community
                                 </span>
                             </div>

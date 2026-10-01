@@ -44,8 +44,8 @@ function Register() {
         <div className="grid grid-cols-2 gap-[125px] my-[120px] h-[784px]">
           {/* Left site */}
           <div className="">
-            <h1 className="text-[#F5F5F6] text-[20px] font-semibold font-poppins mb-4">Sign up and come in</h1>
-            <p className="text-[#F5F5F6] text-lg font-satoshi mb-[58px]">The registration process is straightforward, uncomplicated, and efficient, allowing users to sign up quickly, easily, and at no cost</p>
+            <h1 className="text-light-100 text-[20px] font-semibold font-poppins mb-4">Sign up and come in</h1>
+            <p className="text-light-100 text-lg font-satoshi mb-[58px]">The registration process is straightforward, uncomplicated, and efficient, allowing users to sign up quickly, easily, and at no cost</p>
 
             <div className="relative">
               {/* Course card one */}
@@ -57,7 +57,7 @@ function Register() {
                   w-[373px]
                             rounded-[20px]
                             border
-                            border-[#D9D9D9]
+                            border-border-base
                             bg-white
                             p-3
                             overflow-hidden
@@ -90,15 +90,15 @@ function Register() {
                                     gap-2
                                 "
                       >
-                        <span className="bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 text-[11px] text-[#444750] whitespace-nowrap">
+                        <span className="bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 text-[11px] text-gray-900 whitespace-nowrap">
                           {course.lessons}
                         </span>
 
-                        <span className="bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 text-[11px] text-[#444750] whitespace-nowrap">
+                        <span className="bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 text-[11px] text-gray-900 whitespace-nowrap">
                           {course.duration}
                         </span>
 
-                        <span className="bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 text-[11px] text-[#444750] whitespace-nowrap">
+                        <span className="bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 text-[11px] text-gray-900 whitespace-nowrap">
                           {course.comments}
                         </span>
                       </div>
@@ -115,7 +115,7 @@ function Register() {
                                     text-[17px]
                                     leading-[1.2]
                                     font-semibold
-                                    text-[#080A13]
+                                    text-dark-800
                                     font-poppins
                                 "
                         title={course.title}
@@ -124,11 +124,11 @@ function Register() {
                       </h3>
 
                       <div className="flex items-center gap-1 shrink-0">
-                        <span className="text-[14px] text-[#666A72]">
+                        <span className="text-[14px] text-gray-600">
                           {course.rating}
                         </span>
 
-                        <span className="text-[#C9CDD2] text-[18px]">
+                        <span className="text-gray-100 text-[18px]">
                           ★
                         </span>
                       </div>
@@ -138,11 +138,11 @@ function Register() {
                             Instructor
                         ========================== */}
                     <div className="flex items-center gap-1 mt-1">
-                      <span className="text-[11px] text-[#777B83]">
+                      <span className="text-[11px] text-gray-500">
                         by
                       </span>
 
-                      <span className="text-[11px] text-[#1648FF]">
+                      <span className="text-[11px] text-accent-blue">
                         {course.instructor}
                       </span>
                     </div>
@@ -157,17 +157,17 @@ function Register() {
         flex
         items-center
         gap-2
-        bg-[#F5F5F6]
+        bg-light-100
         rounded-full
         px-3
         py-1.5
     "
                       >
-                        <span className="text-[#444750] rotate-270">
+                        <span className="text-gray-900 rotate-270">
                           <ListSortAscending size={16} strokeWidth={2} />
                         </span>
 
-                        <span className="text-[12px] font-medium text-[#4B4C53]">
+                        <span className="text-[12px] font-medium text-gray-800">
                           {course.level}
                         </span>
                       </div>
@@ -182,11 +182,11 @@ function Register() {
                             Price
                         ========================== */}
                     <div className="flex items-end gap-1 mt-4">
-                      <span className="text-[20px] font-semibold text-[#1648FF]">
+                      <span className="text-[20px] font-semibold text-accent-blue">
                         {course.price}
                       </span>
 
-                      <span className="text-[10px] text-[#4F4F4F] mb-[2px]">
+                      <span className="text-[10px] text-gray-700 mb-[2px]">
                         /{course.priceType}
                       </span>
                     </div>
@@ -204,7 +204,7 @@ function Register() {
                   w-[373px]
                             rounded-[20px]
                             border
-                            border-[#D9D9D9]
+                            border-border-base
                             bg-white
                             p-3
                             overflow-hidden
@@ -237,15 +237,15 @@ function Register() {
                                     gap-2
                                 "
                       >
-                        <span className="bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 text-[11px] text-[#444750] whitespace-nowrap">
+                        <span className="bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 text-[11px] text-gray-900 whitespace-nowrap">
                           {course.lessons}
                         </span>
 
-                        <span className="bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 text-[11px] text-[#444750] whitespace-nowrap">
+                        <span className="bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 text-[11px] text-gray-900 whitespace-nowrap">
                           {course.duration}
                         </span>
 
-                        <span className="bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 text-[11px] text-[#444750] whitespace-nowrap">
+                        <span className="bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 text-[11px] text-gray-900 whitespace-nowrap">
                           {course.comments}
                         </span>
                       </div>
@@ -262,7 +262,7 @@ function Register() {
                                     text-[17px]
                                     leading-[1.2]
                                     font-semibold
-                                    text-[#080A13]
+                                    text-dark-800
                                     font-poppins
                                 "
                         title={course.title}
@@ -271,11 +271,11 @@ function Register() {
                       </h3>
 
                       <div className="flex items-center gap-1 shrink-0">
-                        <span className="text-[14px] text-[#666A72]">
+                        <span className="text-[14px] text-gray-600">
                           {course.rating}
                         </span>
 
-                        <span className="text-[#C9CDD2] text-[18px]">
+                        <span className="text-gray-100 text-[18px]">
                           ★
                         </span>
                       </div>
@@ -285,11 +285,11 @@ function Register() {
                             Instructor
                         ========================== */}
                     <div className="flex items-center gap-1 mt-1">
-                      <span className="text-[11px] text-[#777B83]">
+                      <span className="text-[11px] text-gray-500">
                         by
                       </span>
 
-                      <span className="text-[11px] text-[#1648FF]">
+                      <span className="text-[11px] text-accent-blue">
                         {course.instructor}
                       </span>
                     </div>
@@ -304,17 +304,17 @@ function Register() {
         flex
         items-center
         gap-2
-        bg-[#F5F5F6]
+        bg-light-100
         rounded-full
         px-3
         py-1.5
     "
                       >
-                        <span className="text-[#444750] rotate-270">
+                        <span className="text-gray-900 rotate-270">
                           <ListSortAscending size={16} strokeWidth={2} />
                         </span>
 
-                        <span className="text-[12px] font-medium text-[#4B4C53]">
+                        <span className="text-[12px] font-medium text-gray-800">
                           {course.level}
                         </span>
                       </div>
@@ -329,11 +329,11 @@ function Register() {
                             Price
                         ========================== */}
                     <div className="flex items-end gap-1 mt-4">
-                      <span className="text-[20px] font-semibold text-[#1648FF]">
+                      <span className="text-[20px] font-semibold text-accent-blue">
                         {course.price}
                       </span>
 
-                      <span className="text-[10px] text-[#4F4F4F] mb-[2px]">
+                      <span className="text-[10px] text-gray-700 mb-[2px]">
                         /{course.priceType}
                       </span>
                     </div>
@@ -347,11 +347,11 @@ function Register() {
               <img src="/Frame-1.png" alt="" className="absolute top-80 right-0 z-10" />
 
 
-              <div className="p-4 bg-[#D4FB20] z-5 rounded-2xl absolute right-0 top-110">
-                <h4 className="text-[#242528] font-medium">Happy Students</h4>
-                <div className="text-[#82868E] flex items-center gap-1 mb-2">
-                  <p className="text-[#82868E] text-lg font-medium font-satoshi">4.5 (240)</p>
-                  <Star className="text-[#D4FB20] fill-[#D4FB20] w-4 h-4" />
+              <div className="p-4 bg-accent-lime-300 z-5 rounded-2xl absolute right-0 top-110">
+                <h4 className="text-dark-700 font-medium">Happy Students</h4>
+                <div className="text-gray-300 flex items-center gap-1 mb-2">
+                  <p className="text-gray-300 text-lg font-medium font-satoshi">4.5 (240)</p>
+                  <Star className="text-accent-lime-300 fill-accent-lime-300 w-4 h-4" />
                 </div>
                 <img src="/Auto Layout Horizontal.png" alt="" />
               </div>
@@ -361,29 +361,29 @@ function Register() {
 
           {/* Right site */}
           <div className="bg-white py-[61px] px-[63px] rounded-3xl">
-            <p className="text-[#003BE2] text-lg font-satoshi">Create an Account</p>
-            <h1 className="text-[#242528] text-[44px] font-poppins font-semibold mb-10">Welcome to ByteSpace</h1>
+            <p className="text-accent-blue-dark text-lg font-satoshi">Create an Account</p>
+            <h1 className="text-dark-700 text-[44px] font-poppins font-semibold mb-10">Welcome to ByteSpace</h1>
             <div className="flex flex-col gap-2 mb-6">
-              <span className="text-[#242528] text-[14px] font-medium font-satoshi">Full Name</span>
-              <input type="text" className="py-[14px] ps-[24px] border border-[#E5E6E8] rounded-xl" placeholder="Jamie Davis" />
+              <span className="text-dark-700 text-[14px] font-medium font-satoshi">Full Name</span>
+              <input type="text" className="py-[14px] ps-[24px] border border-border-light rounded-xl" placeholder="Jamie Davis" />
             </div>
             <div className="flex flex-col gap-2 mb-6">
-              <span className="text-[#242528] text-[14px] font-medium font-satoshi">Email</span>
-              <input type="text" className="py-[14px] ps-[24px] border border-[#E5E6E8] rounded-xl" placeholder="designer@example.com" />
+              <span className="text-dark-700 text-[14px] font-medium font-satoshi">Email</span>
+              <input type="text" className="py-[14px] ps-[24px] border border-border-light rounded-xl" placeholder="designer@example.com" />
             </div>
             <div className="flex flex-col gap-2 mb-6">
-              <span className="text-[#242528] text-[14px] font-medium font-satoshi">Password</span>
-              <input type="text" className="py-[14px] ps-[24px] border border-[#E5E6E8] rounded-xl" placeholder="******" />
+              <span className="text-dark-700 text-[14px] font-medium font-satoshi">Password</span>
+              <input type="text" className="py-[14px] ps-[24px] border border-border-light rounded-xl" placeholder="******" />
             </div>
 
             <div className="flex justify-end mb-[122px]">
-              <button className="bg-[#D4FB20] py-3 px-6 rounded-3xl text-[#242528] text-lg font-medium font-satoshi">
+              <button className="bg-accent-lime-300 py-3 px-6 rounded-3xl text-dark-700 text-lg font-medium font-satoshi">
                 Continue
               </button>
             </div>
 
             <div className="text-center">
-              <span className="font-satoshi text-[#4B4C53]">Already have an account? <a href="/login" className="text-[#003BE2] font-satoshi">Login</a></span>
+              <span className="font-satoshi text-gray-800">Already have an account? <a href="/login" className="text-accent-blue-dark font-satoshi">Login</a></span>
             </div>
           </div>
         </div>
